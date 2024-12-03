@@ -23,7 +23,7 @@ with st.expander("See source code"):
             filepath,
             latitude="緯度(Y座標)",
             longitude="經度(X座標)",
-            value="位址",
+            value="項次",
             name="Heat map",
             radius=20,
         )
