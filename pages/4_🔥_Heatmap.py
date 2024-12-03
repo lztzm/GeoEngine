@@ -18,7 +18,7 @@ st.title("Heatmap")
 with st.expander("See source code"):
     with st.echo():
         filepath = "https://github.com/lztzm/Geofile/blob/main/圖檔/臺中市路外停車場座標資料.csv"
-        m = leafmap.Map(center=[24.14734503954353, 120.67316364818225], zoom=)
+        m = leafmap.Map(center=[24.14734503954353, 120.67316364818225], zoom=10)
         m.add_heatmap(
             filepath,
             latitude="緯度(Y座標)",
