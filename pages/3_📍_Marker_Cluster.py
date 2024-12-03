@@ -25,7 +25,6 @@ with st.expander("See source code"):
             filepath,
             x="緯度(Y座標)",
             y="經度(X座標)",
-            color_column="項次",
             icon_names=["gear", "map", "leaf", "globe"],
             spin=True,
             add_legend=True,
