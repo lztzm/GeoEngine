@@ -31,3 +31,5 @@ with st.expander("See source code"):
         )
 
 m.to_streamlit(height=700)
+
+print(filepath)
